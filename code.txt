@@ -12,3 +12,13 @@ begin
   s:=time mod 60;
   Write(h,' ',m,' ',s);
 end.
+program next;
+var
+  q,w,e,r:real;
+begin
+  Read(q,w,e);
+  r:=(q+w+e)/2;
+  WriteLn(2*sqrt(r*(r-q)*(r-w)*(r-e))/q);
+  WriteLn(2*sqrt(r*(r-q)*(r-w)*(r-e))/w);
+  WriteLn(2*sqrt(r*(r-q)*(r-w)*(r-e))/e);
+end.
