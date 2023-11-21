@@ -1,0 +1,1 @@
+This repository was created by Shapirko Maksym. In the first commit, new code was added, which is written in Pascalia In the second commit, a second code was added, also in Pascal. In the 3rd commit, 3 code was added, also written in Pascal
