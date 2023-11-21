@@ -12,20 +12,3 @@ begin
   s:=time mod 60;
   Write(h,' ',m,' ',s);
 end.
-program next;
-var
-  q,w,e,r:real;
-begin
-  Read(q,w,e);
-  r:=(q+w+e)/2;
-  WriteLn(2*sqrt(r*(r-q)*(r-w)*(r-e))/q);
-  WriteLn(2*sqrt(r*(r-q)*(r-w)*(r-e))/w);
-  WriteLn(2*sqrt(r*(r-q)*(r-w)*(r-e))/e);
-end.
-program next;
-var
-  q,w:real;
-begin
-  Read(q,w);
-  WriteLn((((sqr(sqrt(q)+sqrt(w)))-4*w)/((q-w)/(sqrt(1/w)+3*sqrt(1/q))))/((q+9*w+6*sqrt(q*w))/(1/sqrt(w)+1/sqrt(q))));
-end.
